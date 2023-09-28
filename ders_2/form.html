@@ -11,12 +11,30 @@
 
 <form action="result.html" method="get">
 
-<label for="name">Adınızı giriniz:</label>
-<input type="text" name="isim" id="name">
-<br> <br><br>
+    <div>
+        <label for="name">İsim:</label>
+        <!-- YAZIYA TIKLAYINCA KUTUYU AKTİFLEŞTİRMEK İÇİN LABEL KOMUTU -->
+        <input type="text" name="İsim " id="name" placeholder="Lütfen isminizi giriniz" value="M">
+        <br> <br><br>
+        
+        <label for="soyisim">Soyisim:</label>
+        <input type="text" name="Soyisim " id="soyisim" placeholder="Lütfen soyisminizi giriniz" value=" A" > 
+        <!-- KUTUCUĞU ÖNCEDEN DOLDURMAK İÇİN VALUE KOMUTU -->
+    </div>
+<br><br>
 
-<label for="soyisim">Soyadınızı girin:</label>
-<input type="text" name="soyisim" id="soyisim">
+    <div>
+<label for="sifre">Parolanızı giriniz:</label>
+<input type="password" name="Girilen parola" id="sifre">
+    </div><br><br>
+
+    <div>
+        <span>Cinsiyetinizi seçiniz: </span> <br>
+        <label for="cins1">Erkek</label>
+        <input type="radio" name="Cinsiyet" id="cins1" value="Erkek"><br>
+        <label for="cins">Kadın</label>
+        <input type="radio" name="Cinsiyet" id="cins" value="Kadın"><br>
+    </div>
 
 
 
