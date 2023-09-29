@@ -23,44 +23,59 @@
     </div>
 <br>
 
-    <div>
-<label for="sifre">Kalbinize şifre ekleyiniz:</label>
-<input type="password" name="Girilen parola" id="sifre" required>
-<!-- REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
-    </div><br>
 
-    <div>
-        <span>Cinsiyetinizi seçiniz: </span> <br>
-        <label for="cins1">Erkek</label>
-        <input type="radio" name="Cinsiyet" id="cins1" value="Erkek"required><br>
-
-        <!-- REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
-        <label for="cins">Kadın</label>
-        <input type="radio" name="Cinsiyet" id="cins" value="Kadın" required><br>
-    </div>
 <div>
-<span> Favori yemeklerinizi belirleyiniz: </span><br>
-<input type="checkbox" name="fırın yemeği" id="fırın">
+    <span>Teslimat seçiniz: </span> <br>
+    <input type="radio" name="Cinsiyet" id="cins1" value="Erkek"required>
+    <label for="cins1">Ev, Ofis vb</label><br>
+    
+    <!-- REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
+    <input type="radio" name="Cinsiyet" id="cins" value="Kadın" required>
+    <label for="cins">Restoranda yiyeceğim.</label><br>
+</div> <BR></BR>
+
+<div>
+    <span> Favori yemeklerinizi belirleyiniz: </span><br>
+    <input type="checkbox" name="fırın yemeği" id="fırın">
 <label for="fırın">Fırın yemekleri</label><br>
 <input type="checkbox" name="balık" id="balık">
 <label for="balık">Balık yemekleri</label><br>
 <input type="checkbox" name="çorba" id="çorba">
 <label for="çorba">Çorbalar</label><br>
 <input type="checkbox" name="salata" id="salata">
-<label for="salata"> Klasik Salatalar</label><br>
+<label for="salata">  Salatalar</label><br>
 <input type="checkbox" name="meze" id="meze">
 <label for="meze">Meze çeşitleri</label><br>
-<input type="checkbox" name="turşu" id="turşu">
-<label for="turşu">Turşu çeşitleri</label><br>
+<input type="checkbox" name="tatlı" id="tatlı">
+<label for="turşu">Tatlı çeşitleri</label><br>
 <input type="checkbox" name="içecek" id="içecek">
 <label for="içecek">İçecek çeşitleri</label><br>
-<input type="checkbox" name="pilav" id="pilav">
-<label for="pilav">Pilav çeşitleri</label>
+<!-- <input type="checkbox" name="pilav" id="pilav">
+    <label for="pilav">Pilav çeşitleri</label> -->
+
 </div>
 
+<label for="arama">Ekstra istek yemeğinizi yazabilirsiniz: </label>
+<input type="search" id="arama" name="Aranan yemek: ">
+<input type="button" value="Ekle">
+<br><br>
 
-<br><br><br>
+<div>
+    <label for="porsiyon"> İstenilen çeşitlerden sırasıyla porsiyon miktarı</label>
+    <input type="text" name="porsiyon miktarı" id="porsiyon">
+</div>
+<br><br>
+<div>
+<label for="sifre">4 haneli sipariş şifrenizi ekleyiniz:</label>
+<input type="password" name="Girilen parola" id="sifre" required><br>
+<Span> <mark>Yemeği teslim alırken bu şifreyi kullanacaksınız</mark> </Span>
+<!-- REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
+</div><br>
+
+<br> 
 <input type="submit" value="Gönder">
+<br><br>
+<input type="reset" value="Sıfırlama">
 </form>
 
 
