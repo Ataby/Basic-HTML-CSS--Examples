@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    /* YILDIZ İŞARETİ TÜM ELEMENTLERİ SEÇER */
+}
+.container{
+background-color: aqua;
+margin: 40px;
+}
+
+.box1{
+    background-color: coral;
+}
+.box2{
+    background-color: yellowgreen;
+    margin: 15px;
+    border: 5px solid red;
+    width: 80px;
+    margin: 20px auto;
+    /* MARGIN AUTO DEMEK İÇİN WİDTH BELİRLENMİŞ OLMALI */
+}
+.box3{
+    background-color: purple;
+    /* margin-left: 15px; */
+    border: 5px solid blue;
+}
+.box4{
+    background-color: brown;
+    margin: inherit;
+}
