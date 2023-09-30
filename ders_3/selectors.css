@@ -27,3 +27,20 @@ p[title="baslık_5"]{
 p[title="baslık_6"]{
 background-color: peru;
 }
+
+h1[title="baslık_7"]{
+    color: olive;
+    background-color: black;
+}
+
+.attribute p {
+    background: lightblue;
+}
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+p::first-line{
+    font-style: italic;
+}
