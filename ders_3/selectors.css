@@ -1,0 +1,29 @@
+/* GRUP SEÇİCİLER */
+
+/* div{
+border: 1px solid orange;
+} */
+
+/* div p {
+    border: 2px solid red;
+} */
+
+/* .container p {
+    border: 2px solid green;
+} */
+
+/* .container div p {
+    background-color: aqua;
+} */
+
+p + div{
+    background-color: crimson;
+    /*  P+DIV = P'DEN SONRA DIV GELİYORSA DEMEK */
+}
+
+p[title="baslık_5"]{
+   background-color: purple; 
+}
+p[title="baslık_6"]{
+background-color: peru;
+}
