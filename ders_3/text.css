@@ -26,8 +26,12 @@ word-spacing: 1rem;
 
 #par5{    
 color: gray;
-text-transform: uppercase;
-
+/* text-transform: uppercase; */
+font-family: 'Alata', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Onest', sans-serif;
 }
 #title_1{
     text-align: center;
@@ -41,7 +45,8 @@ background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6d
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; 
 direction: rtl;
-unicode-bidi:bidi-override
+unicode-bidi:bidi-override;
+font-style: italic ;
 
 }
 #title{
@@ -54,6 +59,7 @@ background-image: radial-gradient(circle, violet, indigo, blue, green, yellow, o
 color: transparent;
 background-clip: text;
 -webkit-background-clip: text;
+font-style: italic;
 
 /* İKİ FARKLI RAİNBOW ÖRNEĞİ 
 ----------------------------------------------------*/
