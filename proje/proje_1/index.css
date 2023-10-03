@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Borel&family=Bowlby+One+SC&family=Lobster+Two&family=Lumanosimo&family=Onest&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(./background_image.jpg);
+}
+
+#container{
+    max-width: 1240px;
+    max-height: 1036px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center;
+    margin: auto;
+    margin-top: 30px;
+}
+h1{
+    font-size: 50px;
+    color: red;
+    font-family: 'Bebas Neue', sans-serif;}
+h3
