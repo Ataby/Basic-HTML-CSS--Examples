@@ -15,7 +15,7 @@ body{
 
 #container{
     max-width: 1240px;
-    height: 1036px;
+    /* height: 1036px; */
     background-color: rgba(0, 0, 0, 0.4);
     background-position: center;
     margin: auto;
@@ -30,8 +30,7 @@ body{
     font-size: 50px;
     color: red;
     font-family: 'Bebas Neue', sans-serif;
-    fill: currentColor;
-}
+    letter-spacing: 2px;}
 
 #h3{
     font-family: 'Sorts Mill Goudy', serif;
@@ -42,16 +41,10 @@ body{
     height: 897px;
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
+    padding: 30px 40px;
 
 }
 
-#kutu{
-    height: 50px;
-    max-width: 350px;
-    margin-left: 30px;
-    margin-top: 60px;
-
-}
 
 #etiket{
     color: white;
@@ -63,4 +56,35 @@ body{
 
 .inputbox{
     color: white;
-    font-family: 'Mooli', sans-serif;}
+    font-family: 'Mooli', sans-serif;
+}
+
+textarea{
+    resize: none;
+}
+#name , #age , #email , #dropdown {
+    width: 350px;
+    padding: 12px 10px;
+    margin-top: 10px ;
+    margin-bottom: 18px;
+}
+#formgonder{
+    background-color: red;
+    width: 150px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#formgonder:hover{
+    background-color: white;
+    color: red;
+}
+.formtusu{
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
