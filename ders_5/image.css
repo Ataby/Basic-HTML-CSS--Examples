@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid red;
+    width: 20rem;
+    height: 18rem;
+    background-image: url(https://cdn.pixabay.com/photo/2023/09/30/21/16/river-8286407_640.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    overflow: auto;
+    color: aliceblue;
+    font-size:small;
+    opacity: .7;
+    transition: all ease-in-out .5s;
+}
+
+.container:hover{
+opacity: 1;
+}
+p{
+    color: rgba(255,255,0,.7);
+    /* YAZIYA OPACITY VERDİK */
+}
