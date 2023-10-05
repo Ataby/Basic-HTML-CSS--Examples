@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.abs{
+    background-color: aqua;
+    width: 10cm;
+}
+
+.div2{
+    background-color: chocolate;
+    width: 50%;
+    height: 160px;
+}
+
+.div3{
+    background-color: yellow;
+    width: 50%;
+    /* PARENT ELEMENTE GÖRE HAREKET EDER */
+
+    height: 150%;
+}
+
+.div4{
+    background-color: darkmagenta;
+    width: 50vw;
+    height: 12vh;
+    /* VW GÖRÜNEN ALANA GÖRE HAREKET EDER */
+}
