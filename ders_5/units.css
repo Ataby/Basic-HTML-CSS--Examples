@@ -26,3 +26,35 @@
     height: 12vh;
     /* VW GÖRÜNEN ALANA GÖRE HAREKET EDER */
 }
+
+.div5{
+    font-size: 1em;
+    /* 16PIXEL */
+}
+.div6{
+    font-size: 2em;
+    /* 32 PIXEL */
+}
+.div7{
+    font-size: 3em;
+    /* 96 PIXEL ÇÜNKÜ ÜSTTEKİ DİV'İN İÇİNE YAZDIK */
+}
+.div8{
+    font-size: 1rem;
+    /* 16PIXEL */
+}
+.div9{
+    font-size: 2rem;
+    /* 32 PIXEL */
+}
+.div10{
+    font-size: 3rem;
+    /* 48 PIXEL ÇÜNKÜ REM STANDART KABUL EDİLİR */
+}
+
+html{
+    font-size: 20px;
+    /* 1 REM = 20PX */
+    /* STANDART 16PX DİR */
+    /* STANDART PX DEĞİŞTİRİLEBİLİR */
+}
