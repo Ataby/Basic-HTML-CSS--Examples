@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kutu p{
+    color: red;
+/* DESCENDENT SELECTOR */
+}
+
+.kutu > p {
+    color: green;
+    /* CHILD SELECTOR */
+}
+
+h1 + p{
+    /* H1 DEN SONRA GELEN İLK P  */
+    color: beige;
+    /* ADJACENT SIBLING SELECTOR */
+    /* DESCENDENT DAHA BASKIN OLDUĞU İÇİN RENK VEREMEDİ*/
+    /* INLINE > INTERNAL > EXTERNAL */
+}
+
+h1 ~ p {
+    color: hotpink;
+    /* H1 DEN SONRA TÜM P ELEMNTLERİ */
+    /* GENERAL SIBLING SELECTOR  = ADJACENT SIBLING */
+}
+
+h3{
+    margin: 1rem;
+    border: 2px solid red;
+    outline : 2px solid blue;
+    outline-offset: 5px;
+    /* OUTLINE İLE BORDER ARASINDAKİ MESAFE */
+    display: inline-block;
+}
