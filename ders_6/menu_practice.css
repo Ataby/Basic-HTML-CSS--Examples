@@ -1,0 +1,75 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+.top {
+    background-image: linear-gradient(45deg,white, purple);
+}
+
+.top .kayit{
+    text-align: right;
+    margin-bottom: 0px;
+    /* vertical-align:bottom; */
+
+}
+
+.top #dragon{
+    text-align: left;
+}
+#dragon {
+    width: 150px;
+    height: auto;
+    margin-bottom: 0;
+    /* color: crimson; */
+    display: inline-block;
+    background-color: transparent;
+    /* border: 2px solid red; */
+}
+
+.button{
+    width: 70px;
+    float: right;          
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+/* .clear{
+    clear: both;
+} */
+
+.par1{
+    margin: 1.5rem;
+}
+nav.yatay_menu a {
+    text-decoration: none;
+    color: purple;
+}
+
+nav.yatay_menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.yatay_menu ul li {
+    display: inline-block;
+    margin: 15px;
+    /* INLINE ELEMENTLER MARGIN PADDING ALAMAZLAR */
+    background-color: antiquewhite;
+    padding: .5rem 1rem;
+    width: 7rem;
+    border-radius: 10px;
+    text-align: left;
+}
+
+nav.yatay_menu ul li:hover{
+    background-color: purple;
+    text-align: center;
+    /* font-size: large; */
+    transition-duration: .5s;
+}
+
+nav.yatay_menu ul li:hover a {
+    color: bisque;
+}
