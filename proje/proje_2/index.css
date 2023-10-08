@@ -46,11 +46,129 @@ header ul li a {
 
 .header_right .button:hover{
 box-shadow: 2px 3px 5px lightgray;
-font-size: 19px;
+font-size: 15px;
 cursor: pointer;
 }
 
 header ul li a:hover{
     text-decoration: underline;
     
+}
+
+.main{
+    /* vertical-align: middle; */
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 250px;
+}
+
+.arama_cubugu{
+    border: 1px solid lightgrey;
+    border-radius: 21px;
+    width: 480px;
+    height: 40px;
+    box-shadow: 2px 2px 2px lightgray;
+
+    text-align: center;
+    /* TEXT ALIGN KOMUTU DİV İÇİNDE ÇALIŞIR */
+
+    margin: 20px auto;
+    /* DIV ELEMENTİNİ EN KOLAY ORTALAMA YÖNETMİ */
+}
+
+.main #arama_input{
+    border: none;
+    outline: none;
+    width: 380px;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 2px;
+}
+
+.main_logo{
+    margin-bottom: 20px;
+}
+
+.mic  {
+    /* margin-top: 10px; */
+    width: 17px;
+    vertical-align: middle;
+}
+
+.arama{
+    vertical-align: middle;    
+}
+
+.butonlar{
+    margin: 30px auto;
+}
+.arama_yap{
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+
+.şanslıyım{
+    font-size: 18px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
+
+.arama_yap:hover{
+box-shadow: 2px 2px 2px lightgray;
+}
+
+.şanslıyım:hover{
+    box-shadow: 2px 2px 2px lightgray;    
+}
+
+.şanslıyım:active{
+    border: 1px solid cornflowerblue;
+}
+
+.arama_yap:active{
+    border: 1px solid cornflowerblue;
+}
+
+.language a:hover{
+text-decoration: underline;
+}
+
+.footerbottomright{
+    float: right; 
+}
+
+.footerbottomleft{
+    float: left;    
+}
+
+.footerbottomright li {
+display: inline-block;
+margin: 4px;
+}
+
+.footerbottomleft li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.country{
+    padding: 15px;
+    color: rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+footer {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer ul{
+    padding: 15px; 
 }
