@@ -51,3 +51,27 @@ height: 2rem;
 padding: 1rem;
 }
 
+.container3{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:1rem;
+    padding: .5rem;
+}
+
+.container3 div{
+    background-color: khaki;
+    width: 5rem;
+    flex-grow: 1;
+}
+
+div.grow2{
+    flex-grow: 2;
+}
+div.grow3{
+    flex-grow: 3;
+}
+div.nogrow{
+    flex-grow: 0;
+}
