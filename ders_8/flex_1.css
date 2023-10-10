@@ -64,6 +64,8 @@ padding: 1rem;
     background-color: khaki;
     width: 5rem;
     flex-grow: 1;
+    flex-basis: 0;
+    /* İÇERİĞİN BÜYÜKLÜĞÜ KADAAR YER VERİYOR */
 }
 
 div.grow2{
@@ -74,4 +76,34 @@ div.grow3{
 }
 div.nogrow{
     flex-grow: 0;
+}
+
+.container4{
+    background-color: orange;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:1rem;
+    padding: .5rem;
+    width: 50vw;
+    /* TARAYICININ GÖRÜNDÜĞÜ ALANIN %50 Sİ */
+}
+
+.container4 div{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.container4 .grow{
+    width: 10%;
+    /* PARENT'IN BÜYÜKLÜĞÜNÜN YÜZDE 10'U */
+}
+.container4 .grow2{
+    width: 20%;
+}
+.container4 .grow3{
+    width: 30%;
+}
+.container4 .nogrow{
+width: 40%;
 }
