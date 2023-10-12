@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Doldurma</title>
+</head>
+<body>
+    
+<h2> Soframıza hoşgeldiniz</h2>
+
+<form action="result.html" method="get">
+
+    <div>
+        <label for="name">İsim:</label>
+        <!-- YAZIYA TIKLAYINCA KUTUYU AKTİFLEŞTİRMEK İÇİN LABEL KOMUTU -->
+        <input type="text" name="İsim " id="name" placeholder="Lütfen isminizi giriniz" value="M" required>
+        <br>  
+        
+        <label for="soyisim">Soyisim:</label>
+        <input type="text" name="Soyisim " id="soyisim" placeholder="Lütfen soyisminizi giriniz" value=" A" required > 
+        <!-- KUTUCUĞU ÖNCEDEN DOLDURMAK İÇİN VALUE KOMUTU -->
+    </div>
+<br>
+<div>
+    <span>Teslimat seçiniz: </span> <br>
+    <input type="radio" name="Cinsiyet" id="cins1" value="Erkek"required>
+    <label for="cins1">Ev, Ofis vb</label><br>
+    
+    <!-- REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
+    <input type="radio" name="Cinsiyet" id="cins" value="Kadın" required>
+    <label for="cins">Restoranda yiyeceğim.</label><br>
+</div> <BR></BR>
+
+<div>
+<fieldset>
+
+    <legend>Favori yemeklerinizi belirleyiniz:</legend>  <br>
+    <input type="checkbox" name="çorba" id="çorba">
+    <label for="çorba">Çorbalar</label><br>
+    
+    <input type="checkbox" name="fırın yemeği" id="fırın">
+    <label for="fırın">Fırın yemekleri</label><br>
+    
+    <input type="checkbox" name="balık" id="balık">
+    <label for="balık">Balık yemekleri</label><br>
+    
+    <input type="checkbox" name="pilav" id="pilav">
+     <label for="pilav">Pilav çeşitleri</label> <br>
+    
+    <input type="checkbox" name="salata" id="salata">
+    <label for="salata">  Salatalar</label><br>
+    
+    <input type="checkbox" name="meze" id="meze">
+    <label for="meze">Meze çeşitleri</label><br> <br>
+    
+    <label for="icecek">İçecek seçenekleri: </label>
+    <label for="tatlı" style="margin-left: 40px;">Tatlı çeşitlerimiz :</label><br>
+    <select name="İçecek" id="icecek">
+     
+        <optgroup label="Asitli içecekler">
+    <option value="Coca-Cola">Coca-Cola</option>
+    <option value="Fanta">Fanta</option>
+    <option value="Sprite">Sprite</option>
+    <option value="Soda">Soda</option>
+    <option value="Gazoz">Gazoz</option>
+    </optgroup>
+    
+    <optgroup label="Diğer içecekler">
+    <option value="Ice tea">Ice tea</option>
+    <option value="Ayran">Ayran</option>
+    <option value="Su">Su</option>
+    <option value="Limonata">Limonata</option>
+    <option value="Portakal">Portakal Suyu</option>
+    </optgroup>
+    <option value="Yok"> <i>İstemiyorum</i> </option>
+    </select>
+    
+    
+    <select name="Seçilen tatlı" id="tatlı" style="margin-left: 80px;">
+    <optgroup label="Sütlü tatlılar">
+    <option value="Sütlaç">Sütlaç</option>
+    <option value="Dondurma">Dondurma </option>
+    <option value="Magnolya">Magnolya</option>
+    <option value="tavuk göğsü">Tavuk göğsü</option>
+    <option value="profiterol">Profiterol</option>
+    <option value="Pudding">Pudding</option>
+    </optgroup>
+    
+    <optgroup label="Şerbetli tatlılar">
+    <option value="Höşmerim">Höşmerim</option>
+    <option value="Künefe">Künefe</option>
+    <option value="Havuç">Havuç dilimi</option>
+    <option value="Midye"> Midye Baklava</option>
+    <option value="Fıstık">Fıstık Sarma</option>
+    </optgroup>
+    <option value="Yok"> <i>İstemiyorum</i> </option>
+    
+    </select>
+</fieldset>
+</div>
+
+<br><br>
+<label for="arama" >İstediğiniz yemeği listede bulamadınız mı: </label>
+<input type="search" id="arama" name="Aranan yemek: ">
+<input type="button" value="Bul">
+<br><br>
+
+<!-- <div>
+    <label for="porsiyon"> İstenilen çeşitlerden sırasıyla porsiyon miktarı</label>
+    <input type="text" name="porsiyon miktarı" id="porsiyon">
+</div> -->
+
+<br><br>
+
+<div>
+    <label for="renk"> Tabak rengini seçebilirsiniz :  </label>
+    <input type="color" name="seçilen renk: " id="renk"><br><br>
+</div>
+
+<div>
+    <label for="tarih">Sipariş tarihiniz: </label>
+    <input type="date" name="Sipariş teslim tarihi: " id="tarih"><br><br>
+
+    <input type="radio" name="Sipariş teslim: " id="tarih1">
+    <label for="tarih1">Sabah 8-10 arası</label><br>
+    <input type="radio" name="Sipariş teslim: " id="tarih2">
+    <label for="tarih2">Sabah 10-12 arası</label><br>
+    <input type="radio" name="Sipariş teslim: " id="tarih3">
+    <label for="tarih3">Öğlen 1-3 arası</label><br>
+    <input type="radio" name="Sipariş teslim: " id="tarih4">
+    <label for="tarih4">Öğlen 3-5 arası</label><br>
+    <input type="radio" name="Sipariş teslim: " id="tarih5">
+    <label for="tarih4">Akşam 5-7 arası</label><br>
+</div>
+
+<br> 
+<div>
+<label for="sifre">4 haneli sipariş şifrenizi oluşturunuz:</label>
+<input type="password" name="Yemek şifresi:" id="sifre" required><br>
+<Span> <mark style="background-color: crimson;">Yemeği teslim alırken bu şifreyi kullanacaksınız</mark> </Span>
+
+<br><br><br>
+<label for="email">Sipariş bilgileri için e-mail adresi:</label>
+<input type="email" name="email" id="email" style="margin-left:36px ;"><br>
+
+<label for="tel">Sipariş bilgileri için telefon numarası: </label>
+<input type="tel" name="Telefon: " id="tel" required value="+90" style="margin-left:12px"><br>
+
+<label for="teslimat" id="şube">Hangi şubeden teslim almak istersiniz ?</label>
+<input type="text" id="şube" list="şubeler">
+<datalist id="şubeler">
+    <option value="üsküdar"></option>
+    <option value="beykoz"></option>
+    <option value="kartal"></option>
+    <option value="ümraniye"></option>
+    <option value="ataşehir"></option>
+</datalist>
+
+
+<!-- FORMDA REQUIRED ALANI KESİNLİKLE DOLDURULMALI -->
+</div><br><br><br>
+
+<label for="foto">Fotoğraflı yorum yaparsanız bir sonraki siparişiniz %20 indirimli olacaktır :-D </label><br><br><br>
+<span>Yorumunuz: </span>
+<input type="file" name="resim" id="foto"><br>
+<textarea name="yorum"  style="resize: none;" placeholder="Buraya yazınız">
+</textarea>
+<!-- <input type="text" style="border: solid 2px gray; width: 200px; height: 50px;"> -->
+
+<br><br><br><span> AFİYET OLSUN</span><br><br><br>
+
+<input type="submit" value="Gönder">
+<br><br>
+<input type="reset" value="Sıfırlama">
+</form>
+</body>
+</html>

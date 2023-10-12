@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Poppins&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+:root {
+    --mavi1:hsl(200, 100%, 70%);
+    --mavi1:hsl(200, 100%, 60%);
+    --mavi1:hsl(200, 100%, 60%);
+    --mavi1:hsl(200, 100%, 50%);
+    --mavi1:hsl(200, 100%, 40%);
+
+    --ff-dyna: 'DynaPuff',cursive;
+    --ff-nunito:'Nunito', sans-serif;
+    --ff-open-sans:'Open Sans', sans-serif;
+}

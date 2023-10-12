@@ -1,0 +1,54 @@
+*{
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+header{
+    background-color: turquoise;
+    margin-top: 10px;
+}
+
+main{
+    background-color: crimson;
+    padding: 5px;
+    /* height: 350px; */
+    /* overflow: auto; */
+}
+
+aside{
+    background-color: olive;
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+}
+
+article{
+    background-color: yellow;
+    width: 70%;
+    float: left;
+    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* İÇERİĞİ KUTUNUN GÖBEĞİNE TAŞIMAK İÇİN */
+
+}
+
+footer{
+    background-color:cornflowerblue;
+}
+/* .clear{
+    clear: both;
+    border: none;
+} */
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+    border: none;
+    /* CLEAR SADECE BLOCK ELEMENTLERE YAPILIR */
+
+}

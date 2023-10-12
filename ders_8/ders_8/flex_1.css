@@ -1,0 +1,109 @@
+*{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container2{
+background-color: rosybrown;
+height: 20rem;
+display: flex;
+gap: 10px 4px;
+flex-wrap: wrap;
+justify-content:flex-end;
+/* X EKSENİNDE HİZALAMA */
+
+align-content: flex-start;
+align-items: flex-end;
+/*ALİGN, Y EKSENİNDE HİZALAMA YAPAR. */
+/* CONTENT, ITEMDEN ÖNCELİKLİDİR */
+
+/* FLEX YÖNÜ ROW YERİNE COLUMN OLURSA; JUSTIFY VE ALİGN'IN EKSENLERİ DE DEĞİŞİR */
+
+}
+
+.container2 div{
+background-color: yellow;
+height: 2rem;
+padding: 2rem;
+border: 3px solid red;
+}
+
+.container{
+background-color: gold;
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+/* WRAP-REVERSE ÜST SATIRA ATAR*/
+/* NOWRAP, ROWREVERSE ALT SATIRA ATMAZ */
+
+justify-content:center;
+/* space-around, space-evenly, space-between */
+
+gap:2px 15px;
+
+}
+
+.container div{
+background-color: brown;
+border: 5px solid cornflowerblue;
+width: 5rem;
+height: 2rem;
+/* margin: 1rem; */
+padding: 1rem;
+}
+
+.container3{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:1rem;
+    padding: .5rem;
+}
+
+.container3 div{
+    background-color: khaki;
+    width: 5rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    /* İÇERİĞİN BÜYÜKLÜĞÜ KADAAR YER VERİYOR */
+}
+
+div.grow2{
+    flex-grow: 2;
+}
+div.grow3{
+    flex-grow: 3;
+}
+div.nogrow{
+    flex-grow: 0;
+}
+
+.container4{
+    background-color: orange;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap:1rem;
+    padding: .5rem;
+    width: 50vw;
+    /* TARAYICININ GÖRÜNDÜĞÜ ALANIN %50 Sİ */
+}
+
+.container4 div{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.container4 .grow{
+    width: 10%;
+    /* PARENT'IN BÜYÜKLÜĞÜNÜN YÜZDE 10'U */
+}
+.container4 .grow2{
+    width: 20%;
+}
+.container4 .grow3{
+    width: 30%;
+}
+.container4 .nogrow{
+width: 40%;
+}

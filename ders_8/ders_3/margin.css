@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    /* YILDIZ İŞARETİ TÜM ELEMENTLERİ SEÇER */
+}
+.container{
+background-color: lightgray;
+margin: 40px;
+}
+
+.box1{
+    background-color: coral;
+}
+.box2{
+    background-color: yellowgreen;
+    margin: 15px;
+    border: 5px solid red;
+    width: 80px;
+    margin: 20px auto;
+    /* MARGIN AUTO DEMEK İÇİN WİDTH BELİRLENMİŞ OLMALI */
+}
+.box3{
+    background-color: purple;
+    /* margin-left: 15px; */
+    border: 5px solid blue;
+}
+.box4{
+    background-color: brown;
+    margin: inherit;
+}
+
+.cont_2{
+    margin: 0px;
+    background-color: beige;
+}
+#par1{
+    border: 4px solid salmon;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+#par2{
+    border: 5px solid green;
+    margin: 20px auto ;
+    width: 180px;
+    /* padding-inline-start: 15px; */
+    padding: 15px 15px 10px 15px;
+}
+#baslık{
+    border: 4px solid lightblue;
+    width: 450px;
+    margin: auto;
+}

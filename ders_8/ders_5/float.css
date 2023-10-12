@@ -1,0 +1,41 @@
+.imgfloat{
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: orange;
+}
+
+.par1{
+background-color: lightblue;
+text-align: justify;
+}
+
+.clear{
+    clear: both;
+    /* FLOAT LARI TEMİZLEMEK VE AKIŞI NORMALE ÇEVİRMEK */
+    /* BLOCK ELEMENT OLMASI ŞARTTIR */
+}
+
+.box{
+float: left;
+font-size: 3rem;
+}
+
+.box1{
+    background-color: orange;
+    /* float: left; */
+    width: 50%;
+}
+.box2{
+    background-color: purple;
+    /* float: left; */
+    color: aliceblue;
+    width: 50%;
+}
+.box3{
+    background-color: olive;   
+     /* float: left; */
+     width: 50%;
+}

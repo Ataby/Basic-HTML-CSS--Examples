@@ -1,0 +1,92 @@
+#par1{
+   color: rgba(45,180,90,0.6); 
+    text-align: center;
+}
+#par2{
+    color: blue;
+    text-align: right;
+    direction: rtl;
+    font-size: large;
+    column-count: 3;
+    column-rule: 3px solid blue;
+}
+#par3{
+    color: hsl(09, 90%, 50%);
+    text-align: justify;
+    text-decoration: underline green;
+    word-spacing: 1rem;
+}
+#par4{    
+color: blueviolet;
+text-indent: 2rem;
+letter-spacing: 3px;
+line-height: 1.5rem;
+word-spacing: 1rem;
+}
+
+#par5{    
+color: gray;
+/* text-transform: uppercase; */
+font-family: 'Alata', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Onest', sans-serif;
+}
+#title_1{
+    text-align: center;
+text-transform: capitalize;
+text-decoration: overline underline;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 0px;
+margin-bottom: 10px;
+font-size: 2rem;
+background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+direction: rtl;
+unicode-bidi:bidi-override;
+font-style: italic ;
+
+}
+#title{
+text-align: center;
+text-transform: capitalize;
+text-decoration: overline underline;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+background-image: radial-gradient(circle, violet, indigo, blue, green, yellow, orange, red);
+color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+font-style: italic;
+
+/* İKİ FARKLI RAİNBOW ÖRNEĞİ 
+----------------------------------------------------*/
+/* margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722; 
+-----------------------------------------------------*/
+
+    /* margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+-------------------------------------------------------*/
+             
+}

@@ -1,0 +1,23 @@
+
+a{
+    margin-left: 10px;
+    /* ÜST VE ALTTAN MARGIN VERİLMEZ. DİV İÇERİSİNDE MARGİN VERİLEBİLİR. */
+    border: 1px solid orange;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: orange;
+    color: white;
+}
+a:active{
+    background-color: red;
+    color: white;
+}

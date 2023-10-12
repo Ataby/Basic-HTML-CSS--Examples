@@ -1,0 +1,23 @@
+.p1{
+    /* border: 2.5px dotted orange ; */
+    /* wıdth style color  aynı anda verilmiştir. */
+    border-width: 5px;
+    border-style: double;
+    border-color: orange green purple blue;
+}
+
+.p2{
+    border: 5px  dashed salmon;
+}
+
+.p3{
+    border: 4px dashed crimson;
+    width: 120px; height: 120px;
+    border-radius: 50% ;
+    background-color: white;
+    /* BORDER KARE OLUP RADIUS %50 OLURSA DAİRE ŞEKLİ OLUR */
+}
+
+.p4{
+    border: 16px groove gray;
+}
