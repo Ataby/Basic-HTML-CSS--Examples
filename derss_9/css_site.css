@@ -1,0 +1,55 @@
+*{
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.container{
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-rows: 200px 10vh calc(100vh - (200px + 30vh)) 15vh;
+}
+
+.content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.header{
+      background-image: url(https://cdn.pixabay.com/photo/2023/09/20/20/17/skyline-8265564_640.jpg);
+
+      grid-row-start: 1;
+      grid-row-end: 2;
+      grid-column-start: 1;
+      grid-column-end: 13;
+      background-size: contain;
+      background-position: center;
+}
+
+nav{
+      background-color: skyblue;
+      grid-column: span 12;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+aside{
+      background-color: orangered;
+      grid-column: span 3;
+      color: wheat;
+}
+
+main{
+      background-color: wheat;
+      grid-column:span 9 ;
+      padding: .5rem;
+      padding-inline-start: 1rem;
+}
+
+footer{
+      background-color: green;
+      grid-column: span 12;
+      color: white;
+      padding: 2rem;
+}

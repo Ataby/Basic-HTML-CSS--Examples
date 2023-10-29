@@ -1,0 +1,45 @@
+*{
+      box-sizing: border-box;
+      margin: 1rem;
+}
+
+.cont{
+      display: grid;
+      grid-template-columns: 20vh 200px 20vh;
+      /* grid-template-columns: repeat(3, 1fr);  */
+      border: 4px solid red;
+      grid-template-rows: 4rem 20vw 100px ;
+
+      justify-content: center;
+      /* GRID SEVİYESİNDE HİZALAMAK */
+
+      /* align-items: center; */
+      /* ITEM'LARIN KENDİ KUTUSU İÇERİSİNDE DİKEY HİZALANMASI */
+}
+
+.content{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: bisque;
+      border: 2px solid brown;
+}
+
+.cont4{
+      overflow: auto;
+      border: 2px solid blue;
+}
+
+.cont7{
+      background-image: url(https://cdn.pixabay.com/photo/2023/10/01/19/14/pumpkins-8287968_640.jpg);
+
+      background-size:cover  ;
+      color: white;
+      /* background-position: center; */
+}
+
+.cont5{
+      background-color: rgb(82, 152, 154);
+}
+
+
