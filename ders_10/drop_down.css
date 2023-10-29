@@ -1,0 +1,51 @@
+*{
+              box-sizing: border-box;
+              margin: 0;
+}
+.card{
+              border: 2px solid orange;
+              background-color: lightgray;
+              padding: 1.1rem;
+              box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+              border-radius: 10px;
+              text-align: center;
+              height: 8rem;
+              animation: drop_down 5s ease-in-out forwards ;
+              position: absolute;
+}
+
+@keyframes drop_down {
+        0%{top: -50%;} 
+        20%{top: 40%;}
+        80%{top: 40%;}        
+        100%{top: -50%;}
+}
+
+.card p{
+              margin-bottom: 1rem;
+}
+
+.container{
+              /* border: 2px solid red; */
+              display: flex;
+              justify-content: center;
+}
+
+button{
+              border: none;
+              padding: .5rem;
+              font-size: 1rem;
+              background-color: bisque;
+              border-radius: 8px;
+              width: 6rem;
+              cursor: pointer;
+}
+
+button:active{
+              /* width: 5.4rem; */
+              font-size: .9rem;
+}
+
+button:hover{
+              background-color: rgb(248, 180, 96);
+}
